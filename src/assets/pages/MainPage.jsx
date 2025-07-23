@@ -1,3 +1,4 @@
+import Banners from "../components/Banners";
 import useGetAllProducts from "../hooks/useGetAllProducts";
 
 export default function MainPage() {
@@ -6,6 +7,7 @@ export default function MainPage() {
 
   return (
     <>
+      <Banners />
       <h1>main page</h1>
     </>
   );
