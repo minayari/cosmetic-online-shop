@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1025px) {
+  .header2__rsp {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
